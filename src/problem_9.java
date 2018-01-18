@@ -10,8 +10,10 @@ public class problem_9 {
                 for ( int a = 1; a < b; a++ ) {
 
                     if ( a + b + c == max )
-                        if ( Math.pow(a, 2) + Math.pow(b, 2) == Math.pow(c, 2))
-                            productOfResults = a*b*c;
+                        if ( Math.pow(a, 2) + Math.pow(b, 2) == Math.pow(c, 2)) {
+                            productOfResults = a * b * c;
+                            break;
+                        }
                 }
             }
         }
