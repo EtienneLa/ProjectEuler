@@ -14,7 +14,7 @@ public class problem_3 {
 
     }
 
-    public static boolean isPrime( long i ) {
+    private static boolean isPrime( long i ) {
 
         for ( int j = 2; j < i; j++ )
             if ( i % j == 0 )
@@ -22,7 +22,7 @@ public class problem_3 {
         return true;
     }
 
-    public static boolean isFactor( long n, long i) {
+    private static boolean isFactor( long n, long i) {
 
         if ( n % i == 0 )
             return true;
