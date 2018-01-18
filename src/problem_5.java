@@ -4,7 +4,7 @@ public class problem_5 {
 
         long result;
 
-        for ( int i = 20; i < 999999999; i+=20 ) {
+        for ( int i = 2520; i < 999999999; i+=2520 ) {
 
             if ( isEvenlyDivisible(i) ) {
                 result = i;
