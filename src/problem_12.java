@@ -12,9 +12,10 @@ public class problem_12 {
             j++;
             n = triangle( j );
 
-            for ( int i = 1; i <= n; i++ )
+            for ( int i = 1; i <= Math.sqrt(n); i++ )
                 if ( n % i == 0 )
                     factors++;
+            factors *= 2;
         }
 
         System.out.println(n);
